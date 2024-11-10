@@ -1,4 +1,3 @@
-
 ---
 # Java Application Deployment
 apiVersion: apps/v1
@@ -18,7 +17,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: tarundalai1999/bankapp
+        image: adijaiswal/bankapp
         ports:
         - containerPort: 8080
         env:
